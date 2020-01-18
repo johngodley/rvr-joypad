@@ -1,0 +1,157 @@
+{
+	"controller": {
+		"device": "/dev/input/event0"
+	},
+	"buttons": [
+		{
+			"button": "BTN_A",
+			"value": 1,
+			"name": "Yellow",
+			"action": "set_led",
+			"options": {
+				"led": "all_lights",
+				"colour": "255,255,0"
+			}
+		},
+		{
+			"button": "BTN_B",
+			"value": 1,
+			"name": "Red",
+			"action": "set_led",
+			"options": {
+				"led": "all_lights",
+				"colour": "255,0,0"
+			}
+		},
+		{
+			"button": "BTN_C",
+			"value": 1,
+			"name": "Green",
+			"action": "set_led",
+			"options": {
+				"led": "all_lights",
+				"colour": "0,255,0"
+			}
+		},
+		{
+			"button": "BTN_X",
+			"value": 1,
+			"name": "Blue",
+			"action": "set_led",
+			"options": {
+				"led": "all_lights",
+				"colour": "0,0,255"
+			}
+		},
+		{
+			"button": "BTN_Y",
+			"value": 1,
+			"name": "L1",
+			"action": "blink_led",
+			"options": {
+				"led": "headlight_left"
+			}
+		},
+		{
+			"button": "BTN_Z",
+			"value": 1,
+			"name": "R1",
+			"action": "blink_led",
+			"options": {
+				"led": "headlight_right"
+			}
+		},
+		{
+			"button": "BTN_TR",
+			"value": 1,
+			"name": "Start",
+			"action": "reset"
+		},
+		{
+			"button": "BTN_TL",
+			"value": 1,
+			"name": "Select",
+			"action": "nothing"
+		},
+		{
+			"button": "KEY_MENU",
+			"value": 1,
+			"name": "Menu",
+			"action": "nothing"
+		},
+		{
+			"button": "BTN_TR2",
+			"value": 1,
+			"name": "Right joystick down",
+			"action": "nothing"
+		},
+		{
+			"button": "BTN_TL2",
+			"value": 1,
+			"name": "Left joystick down",
+			"action": "nothing"
+		},
+		{
+			"button": "ABS_Z",
+			"name": "L2",
+			"value": 1023,
+			"action": "play_sound",
+			"options": {
+				"sound": "sounds/horn.wav"
+			}
+		},
+		{
+			"button": "ABS_RZ",
+			"value": 1023,
+			"name": "R2",
+			"action": "play_sound",
+			"options": {
+				"sound": "sounds/quack.wav"
+			}
+		},
+		{
+			"button": "ABS_HAT0Y",
+			"value": 1,
+			"name": "Joypad down",
+			"action": "speed_decrease"
+		},
+		{
+			"button": "ABS_HAT0Y",
+			"value": -1,
+			"name": "Joypad up",
+			"action": "speed_increase"
+		},
+		{
+			"button": "ABS_HAT0X",
+			"value": 1,
+			"name": "Joypad right",
+			"action": "speed_increase"
+		},
+		{
+			"button": "ABS_HAT0X",
+			"value": -1,
+			"name": "Joypad left",
+			"action": "speed_decrease"
+		},
+		{
+			"button": "ABS_X",
+			"name": "Left analog X",
+			"action": "drive_x"
+		},
+		{
+			"button": "ABS_Y",
+			"name": "Left analog Y",
+			"action": "drive_y"
+		},
+		{
+			"button": "ABS_RX",
+			"name": "Right analog X",
+			"action": "drive_x"
+		},
+		{
+			"button": "ABS_RY",
+			"name": "Right analog Y",
+			"action": "drive_y"
+		}
+	]
+}
