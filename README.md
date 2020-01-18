@@ -4,6 +4,10 @@ Control a Sphero RVR with a bluetooth joypad controller. Configure actions for e
 
 For example, use the analog stick to drive the RVR, use the main buttons to change colour, and the shoulder buttons to play a horn.
 
+https://john.blog/2020/01/18/sphero-rvr-bluetooth-joypad/
+
+https://videopress.com/v/GLNqxs8q
+
 ## Setup
 
 You will need to mount a Raspberry Pi to your RVR and set up a Python environment. See Sphero's website for more details:
